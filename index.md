@@ -1,4 +1,6 @@
 ---
-title: Welcome to my blog
+title: This is a test page
 ---
+
+text here
 
