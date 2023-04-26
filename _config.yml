@@ -1,2 +1,5 @@
-theme: minimal
+#theme: minimal
+remote_theme: poole/poole@v2.1.0
 title: Title
+author:
+  name: Aaron
