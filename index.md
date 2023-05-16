@@ -1,5 +1,5 @@
 ---
-title: This is a test page
+title: Blog
 ---
 
 text here
