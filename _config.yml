@@ -1,5 +1,4 @@
-#theme: minimal
-remote_theme: poole/lanyon
+theme: minima
 title: Title
 author:
   name: Aaron
