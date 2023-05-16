@@ -2,5 +2,5 @@
 title: Blog
 ---
 
-text here
+Lorem ipsum dolor sit amet
 
