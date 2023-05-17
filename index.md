@@ -1,6 +1,5 @@
 ---
-title: Blog
+layout: home
 ---
 
 Lorem ipsum dolor sit amet
-
