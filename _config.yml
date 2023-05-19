@@ -2,3 +2,8 @@ theme: minima
 title: Aaron Buchler
 #author:
 #  name: Aaron
+
+description: A blog to share my projects at the intersection of color science and photography.
+
+plugins:
+  - jekyll-seo-tag
