@@ -7,3 +7,4 @@ description: A blog to share my projects at the intersection of color science an
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
