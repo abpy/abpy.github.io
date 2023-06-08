@@ -38,10 +38,10 @@ To run the command in terminal you need: (all separated by spaces)
 ```
 
 1. open terminal
-2. click and drag the dcptool executable into terminal
+2. drag and drop the dcptool executable into terminal
 3. type "-d "
-4. click and drag the dcp file
-5. click and drag the dcp file again but delete ".dcp" and type ".xml"
+4. drag and drop the dcp file
+5. drag and drop the dcp file again but delete ".dcp" and type ".xml"
 6. press enter
 
 It will write an xml file to the same folder you placed the dcp in
@@ -83,7 +83,7 @@ Replace with the linear curve
 
 Change DefaultBlackRender to 1
 
-This tells adobe not to automatically recalculate the black level, but to use to level stored in the raw file.
+This tells adobe not to automatically recalculate the black level, but to use the level stored in the raw file.
 ```
   <DefaultBlackRender>1</DefaultBlackRender>
 ```
