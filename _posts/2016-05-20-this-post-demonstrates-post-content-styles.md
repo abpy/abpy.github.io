@@ -88,17 +88,13 @@ Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
 
 ### tests
-superscript?
-
-x^2^
-
 an image
 
 ![test](/images/MacbethCC-sRGB.jpg)
 
 multiple images
 
-![test](/images/MacbethCC-sRGB.jpg)![test](/images/MacbethCC-sRGB.jpg)![test](/images/MacbethCC-sRGB.jpg)
+![test](/images/MacbethCC-sRGB.jpg) ![test](/images/MacbethCC-sRGB.jpg)![test](/images/MacbethCC-sRGB.jpg)
 
 images in table
 
@@ -110,6 +106,8 @@ im1 | im2 | im3
 --- | --- | ---
 ![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg)
 
+im1<br>![test](/images/MacbethCC-sRGB.jpg) | lorem ipsum dolor sit amet consectetur adipiscing elit<br>![test](/images/MacbethCC-sRGB.jpg) | im3<br>![test](/images/MacbethCC-sRGB.jpg)
+
 ### Tables
 
 Title 1               | Title 2               | Title 3               | Title 4
@@ -120,16 +118,6 @@ lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ip
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 
-
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
---------------------- | --------------------- | --------------------- | ---------------------
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 
 
 Title 1 | Title 2 | Title 3 | Title 4
