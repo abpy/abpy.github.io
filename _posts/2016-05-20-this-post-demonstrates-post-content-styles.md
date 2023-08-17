@@ -87,6 +87,23 @@ Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing 
 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
 
+an image
+
+![test](/images/MacbethCC-sRGB.jpg)
+
+multiple images
+
+![test](/images/MacbethCC-sRGB.jpg)![test](/images/MacbethCC-sRGB.jpg)![test](/images/MacbethCC-sRGB.jpg)
+
+images in table
+
+![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg)
+
+images in table with title
+
+im1 | im2 | im3
+![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg)
+
 ### Tables
 
 Title 1               | Title 2               | Title 3               | Title 4
