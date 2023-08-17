@@ -81,11 +81,16 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 ## Headings are cool! (h2)
 
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+> Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
+
+### tests
+superscript?
+
+x^2^
 
 an image
 
@@ -102,6 +107,7 @@ images in table
 images in table with title
 
 im1 | im2 | im3
+--- | --- | ---
 ![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg)
 
 ### Tables
@@ -110,6 +116,18 @@ Title 1               | Title 2               | Title 3               | Title 4
 --------------------- | --------------------- | --------------------- | ---------------------
 lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+--------------------- | --------------------- | --------------------- | ---------------------
+lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+
+
+Title 1               | Title 2               | Title 3               | Title 4
+--------------------- | --------------------- | --------------------- | ---------------------
+lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
+lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
+
+lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+--------------------- | --------------------- | --------------------- | ---------------------
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 
