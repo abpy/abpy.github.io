@@ -110,10 +110,10 @@ images flex div
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; background-color: #f9f9f9; padding: 10px">
 <div style="width:min-content">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br>
   <img src="/images/MacbethCC-sRGB.jpg" width=216px></div>
 <div style="width:min-content">
-  im2<br>
+  <span>im2</span><br>
   <img src="/images/MacbethCC-sRGB.jpg" width=216px></div>
 <div style="width:min-content">
   im3<br>
