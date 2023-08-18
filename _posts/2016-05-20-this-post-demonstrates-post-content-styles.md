@@ -108,13 +108,13 @@ im1 | im2 | im3
 
 images flex div
 
-<div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; background-color:#f9f9f9">
+<div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; background-color: #f9f9f9">
 <div style="width:min-content; margin:auto; padding:10px">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-<img src="/images/MacbethCC-sRGB.jpg", width=355px style="max-width:none"></div>
+<img src="/images/MacbethCC-sRGB.jpg" width=355px style="max-width:none"></div>
 <div style="width:min-content; margin:auto; padding:10px">
 im2<br>
-<img src="/images/MacbethCC-sRGB.jpg", width=355px style="max-width:none"></div>
+<img src="/images/MacbethCC-sRGB.jpg" width=355px style="max-width:none"></div>
 </div>
 
 
