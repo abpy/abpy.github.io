@@ -106,7 +106,13 @@ im1 | im2 | im3
 --- | --- | ---
 ![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg) | ![test](/images/MacbethCC-sRGB.jpg)
 
-im1<br>![test](/images/MacbethCC-sRGB.jpg) | lorem ipsum dolor sit amet consectetur adipiscing elit<br>![test](/images/MacbethCC-sRGB.jpg) | im3<br>![test](/images/MacbethCC-sRGB.jpg)
+images flex div
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; background-color: #f9f9f9; padding: 10px">
+<div style="width:min-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<img src="/Users/Aaron/Desktop/abpy.github.io/images/MacbethCC-sRGB.jpg"></div>
+<div style="width:min-content">im2<img src="/images/MacbethCC-sRGB.jpg"></div>
+<div style="width:min-content">im3<img src="/images/MacbethCC-sRGB.jpg"></div>
+</div>
 
 ### Tables
 
