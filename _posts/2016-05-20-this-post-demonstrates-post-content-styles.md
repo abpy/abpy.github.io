@@ -81,9 +81,9 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 ## Headings are cool! (h2)
 
-> Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+> Proin eget nibh a massa vestibulum pretium. `Suspendisse` eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
-Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+Praesent nulla tortor, `malesuada` adipiscing `adipiscing` sollicitudin, adipiscing eget est.
 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
 
@@ -91,10 +91,6 @@ Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet b
 an image
 
 ![test](/images/MacbethCC-sRGB.jpg)
-
-multiple images
-
-![test](/images/MacbethCC-sRGB.jpg) ![test](/images/MacbethCC-sRGB.jpg)![test](/images/MacbethCC-sRGB.jpg)
 
 images in table
 
@@ -111,10 +107,10 @@ images flex div
 <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; background-color: #f9f9f9">
 <div style="width:min-content; margin-left:auto; margin-right:auto; padding:10px">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-<img src="/images/MacbethCC-sRGB.jpg" width=355px style="max-width:none"></div>
+<img src="/images/MacbethCC-sRGB.jpg" width=350px style="max-width:none"></div>
 <div style="width:min-content; margin-left:auto; margin-right:auto; padding:10px">
 im2<br>
-<img src="/images/MacbethCC-sRGB.jpg" width=355px style="max-width:none"></div>
+<img src="/images/MacbethCC-sRGB.jpg" width=350px style="max-width:none"></div>
 </div>
 
 
@@ -124,7 +120,6 @@ Title 1               | Title 2               | Title 3               | Title 4
 --------------------- | --------------------- | --------------------- | ---------------------
 lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
---------------------- | --------------------- | --------------------- | ---------------------
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
 
