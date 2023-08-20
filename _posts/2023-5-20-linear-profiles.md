@@ -6,7 +6,7 @@ author: "Aaron"
 
 A linear camera profile is one that does not add a contrast curve or other look to an image. When used in a raw converter (adobe ACR / Lightroom, etc) it will show the colors and tones as the sensor + calibration rendered them, without any default adjustment already applied.
 
-A linear profile is essential for reproducing artwork, scanning negatives and slides, or using as a flat base for a LUT. It can also be used as a starting point for photo editing as an alternative to the default look.
+A linear profile is essential for tasks like reproducing artwork, scanning negatives and slides, or getting a flat base to use for a LUT. It can also be used as a starting point for photo editing as an alternative to the default look.
 
 This post will cover how to convert an adobe standard profile into a linear profile by using dcptool to convert the dcp file to xml, edit the xml, and convert back to dcp. These instructions are written for mac, but it should be similar on windows.
 
