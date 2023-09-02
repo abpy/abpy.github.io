@@ -1,3 +1,8 @@
+# input: log10/density, output: linear
+# kodak endura curve
+# by Aaron Buchler, 2023
+# https://github.com/abpy/abpy.github.io
+
 LUT_1D_SIZE 1024
 
 DOMAIN_MIN 0 0 0
