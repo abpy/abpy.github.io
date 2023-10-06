@@ -245,9 +245,9 @@ blockquote code {
  */
 table {
   margin-bottom: $spacing-unit;
-  width: 100%;
+  //width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  //color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
   tr {
@@ -256,7 +256,7 @@ table {
     }
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    padding: ($spacing-unit / 5) ($spacing-unit / 2);
   }
   th {
     background-color: lighten($grey-color-light, 3%);
