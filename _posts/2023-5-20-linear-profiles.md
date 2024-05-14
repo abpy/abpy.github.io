@@ -18,7 +18,7 @@ dcpTool is a command line program that runs in the terminal. It can convert a dc
 
 Download dcpTool from [dcptool.sourceforge.net/Introduction](https://dcptool.sourceforge.net/Introduction.html)
 
-You can place the dcptool folder anywhere you want. you do not need to install anything.
+You can place the dcptool folder anywhere you want, you do not need to install anything.
 The executable files are in the folder /Binaries/OS  X or /Binaries/Windows.
 
 ### Find a profile
@@ -71,7 +71,7 @@ example:
     <Element HueDiv="0" SatDiv="0" ValDiv="0" ...
 ```
 Delete the LookTable and ToneCurve
-from `<LookTable` to `</LookTable>` and `<ToneCurve` to `</ToneCurve>`
+from `<LookTable...` to `...</LookTable>` and `<ToneCurve...` to `...</ToneCurve>`
 
 Replace with the linear curve
 ```
