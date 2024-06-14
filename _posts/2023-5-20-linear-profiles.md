@@ -3,12 +3,11 @@ layout: post
 title: "Making Linear Camera Profiles with dcpTool"
 author: "Aaron"
 ---
-
-A linear camera profile is one that does not add a contrast curve or other look to an image. When used in a raw converter (adobe ACR / Lightroom, etc) it will show the colors and tones as the sensor + calibration rendered them, without any default adjustment already applied.
+A linear profile is a camera profile that does not add a contrast curve or other look to an image. When used in a raw converter (adobe ACR / Lightroom, etc) it will show the colors and tones as the sensor and calibration rendered them, without any default adjustment already applied.
 
 A linear profile is essential for tasks like reproducing artwork, scanning negatives and slides, or getting a flat base to use for a LUT. It can also be used as a starting point for photo editing as an alternative to the default look.
 
-This post will cover how to convert an adobe standard profile into a linear profile by using dcptool to convert the dcp file to xml, edit the xml, and convert back to dcp. These instructions are written for mac, but it should be similar on windows.
+This post will cover how to convert an adobe standard profile into a linear profile by using dcptool to convert between dcp and xml. These instructions are written for mac, but it should be similar on windows.
 
 ## Using dcpTool
 Camera Profiles are stored in the .dcp format based on dng.
@@ -19,16 +18,22 @@ dcpTool is a command line program that runs in the terminal. It can convert a dc
 Download dcpTool from [dcptool.sourceforge.net/Introduction](https://dcptool.sourceforge.net/Introduction.html)
 
 You can place the dcptool folder anywhere you want, you do not need to install anything.
-The executable files are in the folder /Binaries/OS  X or /Binaries/Windows.
+The executable files are in the folder /Binaries/macOS or /Binaries/Windows.
 
 ### Find a profile
 1. Find the adobe standard profile for your camera
-2. Copy this file to a different folder 
+2. Copy this file to a different folder
 
 Path for mac
 ```
 /Library/Application Support/Adobe/CameraRaw/CameraProfiles/Adobe Standard/
 ```
+
+Path for windows
+```
+\ProgramData\Adobe\CameraRaw\CameraProfiles\Adobe Standard\
+```
+
 ### Converting dcp to xml
 Usage instructions can also be found here [dcptool.sourceforge.net/Usage](https://dcptool.sourceforge.net/Usage.html)
 
