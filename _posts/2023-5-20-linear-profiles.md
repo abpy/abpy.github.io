@@ -100,9 +100,14 @@ Same as above but use option "-c "
 
 Place the xml file first then the path for the new dcp
 
-Move the new dcp file to: (on mac)
+Move the new dcp file to:
+
 ```
+Mac:
 /Users/<user>/Library/Application Support/Adobe/CameraRaw/CameraProfiles/
+
+Windows:
+\Users\<user>\AppData\Roaming\Adobe\CameraRaw\CameraProfiles\
 ```
 
 The new profile should appear in the Profile Browser under Adobe Raw.
